@@ -10,6 +10,7 @@
 
 header {
     grid-area: header;
+    overflow: hidden;
 }
 
 header {
@@ -57,6 +58,60 @@ header {
 .navbar-contact a {
     border: 10px solid #e6bd43;
     padding-top: 0;
+}
+
+.header-image {
+     /* https://unsplash.com/photos/iphone-5s-near-laptop-Ai6sfNRvlvc?fbclid=IwAR1llJuU_VFTdZsXccCuzc4MAyNy-ZNKzsEsL64SL6EnW5tXjN0tcHURNWE */
+    opacity: 0.6;
+    text-align: center;
+    width: 170%;
+}
+
+.absolute-header-h {
+    position: absolute;
+    top: 32%;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.absolute-header-p {
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    font-size: 20px;
+    width: 73%;
+    left: 12%;
+}
+
+.absolute-header-btn {
+    position: absolute;
+    font-weight: 900;
+    background-color: #e6bd43;
+    border: 10px solid #e6bd43;
+    color: black;
+    top: 70%;
+    left: 15%;
+    width: 63%;
+    font-size: 1.2rem;
+}
+
+/* Main */
+
+main {
+    grid-area: main;
+}
+
+.engaging-subheading {
+    display: flex;
+    margin: 40px 50px 0;
+    flex-direction: column;
+    height: 350px;
+    text-align: center;
+}
+
+.engaging-subheading p {
+    font-size: 20px;
+    margin-top: -2px;
 }
 
 /* Footer */
