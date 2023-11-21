@@ -155,6 +155,52 @@ main {
     text-decoration: none;
 }
 
+.our-services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+.our-services i {
+    margin-top: 50px;
+}
+
+.our-services p {
+    margin-top: -5px;
+}
+
+.our-services h3 {
+    margin-top: 30px;
+}
+
+.our-services h2 {
+    margin-top: 50px;
+}
+
+.sign-up {
+    background-color: #e9e8e8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    height: 150px;
+}
+
+.sign-up-btn {
+    font-weight: 900;
+    background-color: #e6bd43;
+    padding: 12px 15px 12px 15px;
+    border-style: none;
+}
+
+#email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
 /* Footer */
 
 footer {
