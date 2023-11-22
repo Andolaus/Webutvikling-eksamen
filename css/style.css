@@ -61,7 +61,6 @@ header {
 }
 
 .header-image {
-     /* https://unsplash.com/photos/iphone-5s-near-laptop-Ai6sfNRvlvc?fbclid=IwAR1llJuU_VFTdZsXccCuzc4MAyNy-ZNKzsEsL64SL6EnW5tXjN0tcHURNWE */
     opacity: 0.6;
     text-align: center;
     width: 170%;
@@ -72,6 +71,13 @@ header {
     top: 32%;
     font-size: 2.8rem;
     text-align: center;
+}
+
+.portfolio-h1 {
+    position: absolute;
+    top: 52%;
+    font-size: 2.5rem;
+    left: 30%;
 }
 
 .absolute-header-p {
@@ -99,6 +105,48 @@ header {
 
 main {
     grid-area: main;
+}
+
+.yellow_underline {
+    border-bottom: solid 3px #e6bd43;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+}
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.product-section article {
+    max-width: 350px;
+    min-width: 200px;
+    flex: 1; 
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.product-section article img {
+    width: 295px;
+}
+
+.portfolio-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    margin-left: 40px;
+    margin-top: 40px;
+    grid-gap: 15px;
+}
+
+.portfolio-nav a {
+    color: black;
+    text-decoration-line: none;
+    border: solid black 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .engaging-subheading {
