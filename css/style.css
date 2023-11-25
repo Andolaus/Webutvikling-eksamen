@@ -301,7 +301,7 @@ main {
     background-color: #e6bd43;
     text-align: center;
     padding-top: 35px;
-    height: 28%;
+    height: 20%;
     width: auto;
 }
 
@@ -314,7 +314,7 @@ main {
 }
 
 .sign-up {
-    background-color: #e9e8e8;
+    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -354,10 +354,11 @@ main {
 } 
 
 .contact-us {
-    background-color: #e9e8e8;
+    background-color: #f4f4f4;
     margin-bottom: 0px;
     padding-bottom: 1px;
     padding-top: 30px;
+    height: 33%;
 }
 
 .contact-us h2 {
@@ -378,6 +379,30 @@ main {
     border-style: none;
 }
 
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.icon-flex {
+    display: flex; 
+    gap: 5%;
+}
+
+.icon-flex-margin {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 0px;
+}
+
+.google-maps {
+    width: 375px;
+    height: 250px;
+    border: 0;
+}
+
 /* Footer */ 
 
 footer {
@@ -387,9 +412,17 @@ footer {
 .footer-flex {
     background-color: #252525;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-flex-margin {
+    background-color: #252525;
+    display: flex;
     flex: auto;
     align-items: center;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 footer p {
@@ -414,4 +447,16 @@ footer img {
 .fa-brands {
     color: #fff;
     font-size: 30px;
+}
+
+.to-top {
+    position: fixed;
+    background-color: #252525;
+    z-index: 100;
+    top: 90%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 14px;
+    padding-left: 14px;
+    left: 82%;
 }
