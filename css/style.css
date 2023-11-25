@@ -6,6 +6,10 @@
     grid-template-columns: 1fr;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */ 
 
 header {
@@ -297,7 +301,7 @@ main {
     background-color: #e6bd43;
     text-align: center;
     padding-top: 35px;
-    height: 37%;
+    height: 28%;
     width: auto;
 }
 
@@ -318,19 +322,63 @@ main {
     height: 150px;
 }
 
+.sign-up-form {
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+    gap: 4px;
+}
+
 .sign-up-btn {
     font-weight: 900;
     background-color: #e6bd43;
     padding: 12px 15px 12px 15px;
     border-style: none;
+    margin-right: 172px;
+}
+
+.sign-up-btn-index {
+    font-weight: 900;
+    background-color: #e6bd43;
+    padding: 12px 15px 12px 15px;
+    border-style: none;
+    margin-right: 20px;
+    color: black;
 }
 
 #email {
-    padding-top: 10px;
+    padding-top: 13px;
     padding-bottom: 10px;
+    padding-left: 42px;
+    border-style: none;
 } 
 
-/* Footer */
+.contact-us {
+    background-color: #e9e8e8;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    padding-top: 30px;
+}
+
+.contact-us h2 {
+    text-align: center;
+}
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 5px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#name, #subject, #message {
+    border-style: none;
+}
+
+/* Footer */ 
 
 footer {
     grid-area: footer;
