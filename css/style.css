@@ -301,8 +301,10 @@ main {
     margin-top: 30px;
 }
 
-.our-services h2 {
+.services h2 {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .clients {
@@ -598,6 +600,35 @@ footer img {
         margin: 40px 0px 0px 50px;
     }
 
+    .our-services {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .services h2 {
+        margin-bottom: 50px;
+        font-size: 3rem
+    }
+
+    .our-services i {
+        margin: 0;
+    }
+    
+    .our-services p {
+        margin-top: -20px
+    }
+    
+    .our-services h3 {
+        margin: 30px; 
+    }
+
+
+
+    
     /* Footer */
 
     .to-top {
