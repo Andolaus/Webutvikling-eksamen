@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    max-width: 1600px;
+}
+
 /* Header */ 
 
 header {
@@ -62,6 +66,10 @@ header {
 .navbar-contact a {
     border: 10px solid #e6bd43;
     padding-top: 0;
+}
+
+.header-video {
+    display: none;
 }
 
 .header-image {
@@ -459,4 +467,119 @@ footer img {
     padding-right: 14px;
     padding-left: 14px;
     left: 82%;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 600px) {
+    
+    /* General */
+
+    #grid-container {
+        display: grid;
+        grid-template-areas: "header header header" "main main main" "footer footer footer";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Header */
+
+    header {
+        grid-area: header;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    header nav {
+        margin-left: auto;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+    }
+
+    .navbar li {
+        margin-top: 10%;
+    }
+
+    .navbar-contact {
+        margin-left: auto;
+    }
+
+    .logo-img {
+        width: 80px;
+        height: auto;
+        margin-top: 25%;
+        margin-left: 15%
+    }
+    
+    .header-image {
+        display: none;
+    }
+
+    .header-video {
+        height: 720px;
+        width: auto;
+        display: flex;
+        top: 22%;
+        position: absolute;
+        left: 0%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    .absolute-header-h {
+        left: 35%; 
+    }
+
+    .absolute-header-p {
+        left: 13%;
+    }
+
+    .absolute-header-btn {
+        top: 60%;
+        left: 39%;
+        width: 20%
+    }
+
+    /* Main */
+
+    .engaging-subheading {
+        display: flex;
+        margin: 390px 0 0;
+        flex-direction: column;
+        height: 340px;
+        text-align: center;
+        background-color: white;
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+
+    .engaging-subheading h2 {
+        font-size: 3.0rem;
+        margin-top: 90px;
+      }
+
+    .engaging-subheading p {
+        margin-top: -13px;
+    }
+
+    .about-our-company {
+        background-color: #e6bd43;
+        display: flex;
+        flex-direction: row;
+        height: 427px;
+
+    /* Footer */
+
+    .to-top {
+        left: 94%;
+        top: 84%;
+    }
 }
