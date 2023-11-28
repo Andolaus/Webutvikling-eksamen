@@ -177,6 +177,10 @@ header {
     padding: 3%;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .portfolio-h1 {
     position: absolute;
     top: 52%;
@@ -317,7 +321,7 @@ main {
     background-color: #e6bd43;
     text-align: center;
     padding-top: 35px;
-    height: 20%;
+    height: 15%;
     width: auto;
 }
 
@@ -374,7 +378,7 @@ main {
     margin-bottom: 0px;
     padding-bottom: 1px;
     padding-top: 30px;
-    height: 25%;
+    height: 24%;
 }
 
 .contact-us h2 {
@@ -438,7 +442,7 @@ footer {
     flex: auto;
     align-items: center;
     flex-direction: column;
-    margin-top: 52%;
+    margin-top: 0
 }
 
 footer p {
@@ -555,11 +559,24 @@ footer img {
         width: 20%
     }
 
+    .header-image-products {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+      }
+
+      .portfolio-h1 {
+        position: absolute;
+        top: 38%;
+        font-size: 3rem;
+        left: 44%;
+      }
+
     /* Main */
 
     .header-image-about {
         width: 100%;
-        height: auto;
+        height: 400px;
     }
 
     .engaging-subheading {
@@ -701,7 +718,6 @@ footer img {
     .about-company {
         background-color: rgba(255, 255, 255, 0.8);
         margin-top: 2%;
-        height: 16%;
     }
 
     .header-container {
@@ -713,7 +729,7 @@ footer img {
     }
 
     .clients {
-        height: 14%;
+        height: 17%;
         font-size: 2rem;
     }
 
@@ -726,7 +742,7 @@ footer img {
         margin-bottom: 0px;
         padding-bottom: 1px;
         padding-top: 50px;
-        height: 22%;
+        height: 29%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -766,6 +782,23 @@ footer img {
         width: 32%;
       }
 
+      .google-maps {
+        width: 100%;
+        height: 200px;
+        border: 0;
+      }
+
+      .portfolio-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        margin-left: 3%;
+      }
+
+      .portfolio-nav a {
+        border: solid black 1px;
+      }
+
 
     /* Footer */
 
@@ -793,5 +826,14 @@ footer img {
 
       footer img {
         margin-top: 0%;
+      }
+
+      .footer-flex-margin {
+        background-color: #252525;
+        display: flex;
+        flex: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -40%; 
       }
     }
