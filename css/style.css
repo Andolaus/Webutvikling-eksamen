@@ -124,10 +124,10 @@ header {
 
 .header-container {
     position: absolute;
-    top: 18%;
+    top: 32%;
     left: 26%;
-    height: 425px;
-    width: 230px
+    height: 149px;
+    width: 230px;
 }
 
 .about-company::before {
@@ -158,7 +158,7 @@ header {
 
 .absolute-header-h-about {
     position: absolute;
-    top: 32%;
+    top: 15%;
     font-size: 1.0rem;
     left: -30%;
     margin: 37%;
@@ -166,7 +166,7 @@ header {
 
 .absolute-header-p-about {
     position: absolute;
-    top: 60%;
+    top: 96%;
     font-size: 12px;
     width: 68%;
     left: 7%;
@@ -178,7 +178,7 @@ header {
     background-color: #e6bd43;
     border: 3px solid #e6bd43;
     color: black;
-    top: 127%;
+    top: 288%;
     left: 6%;
     width: 58%;
     font-size: 0.9rem;
@@ -416,8 +416,10 @@ main {
 #email {
     padding-top: 13px;
     padding-bottom: 10px;
-    padding-left: 42px;
+    padding-left: 14px;
     border-style: none;
+    margin-left: -2px;
+    width: 57%;
 } 
 
 .contact-us {
@@ -816,6 +818,15 @@ footer img {
         gap: 7px;
         margin-bottom: 45px;
         margin-top: 2px;
+    }
+
+    #email {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        border-style: none;
+        margin-left: -2px;
+        width: 15%;
     }
 
     #name, #subject, #message {
