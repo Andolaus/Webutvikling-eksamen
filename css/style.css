@@ -610,9 +610,14 @@ footer img {
 
     .header-image-products {
         width: 100%;
-        height: 300px;
+        height: 700px;
         margin-top: 20px;
     }
+
+    .overflow-hidden {
+        overflow: hidden;
+        max-height: 300px;
+      }
 
     .portfolio-h1 {
         position: absolute;
@@ -625,7 +630,7 @@ footer img {
 
     .header-image-about {
         width: 100%;
-        height: 400px;
+        height: 850px;
     }
 
     .engaging-subheading {
@@ -767,6 +772,8 @@ footer img {
     .about-company {
         background-color: rgba(255, 255, 255, 0.8);
         margin-top: 2%;
+        max-height: 400px;
+        overflow: hidden;
     }
 
     .header-container {
