@@ -201,13 +201,25 @@ main {
     padding-bottom: 10px;
 }
 
-.product-section {
+.branding {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.product-section article {
+.design {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.development {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.branding article {
     max-width: 350px;
     min-width: 200px;
     flex: 1; 
@@ -215,7 +227,31 @@ main {
     margin-left: 40px;
 }
 
-.product-section article img {
+.design article {
+    max-width: 350px;
+    min-width: 200px;
+    flex: 1; 
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.development article {
+    max-width: 350px;
+    min-width: 200px;
+    flex: 1; 
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.branding article img {
+    width: 295px;
+}
+
+.design article img {
+    width: 295px;
+}
+
+.development article img {
     width: 295px;
 }
 
@@ -563,14 +599,14 @@ footer img {
         width: 100%;
         height: 300px;
         margin-top: 20px;
-      }
+    }
 
-      .portfolio-h1 {
+    .portfolio-h1 {
         position: absolute;
         top: 38%;
         font-size: 3rem;
         left: 44%;
-      }
+    }
 
     /* Main */
 
@@ -593,7 +629,7 @@ footer img {
     .engaging-subheading h2 {
         font-size: 3.0rem;
         margin-top: 90px;
-      }
+    }
 
     .engaging-subheading p {
         margin-top: -13px;
@@ -746,22 +782,22 @@ footer img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-      }
+    }
 
-      .contact-us h2 {
+    .contact-us h2 {
         text-align: center;
         flex-grow: 2;
         flex-basis: 100%;
         margin-bottom: 32px;
         font-size: 35px;
-      }
+    }
 
-       .contact-us article {
+    .contact-us article {
         flex-basis: 43%;
         margin-left: 40px;
-       }
+    }
 
-       .contact-us-form {
+    .contact-us-form {
         display: flex;
         flex-direction: column;
         margin-left: 159px;
@@ -769,37 +805,93 @@ footer img {
         gap: 7px;
         margin-bottom: 45px;
         margin-top: 2px;
-      }
+    }
 
-      #name, #subject, #message {
+    #name, #subject, #message {
         border-style: none;
         padding-top: 10px;
         padding-bottom: 10px;
-      }
+    }
 
-      .sign-up-btn {
+    .sign-up-btn {
         padding: 12px 10px 12px 6px;
         width: 32%;
-      }
+    }
 
-      .google-maps {
+    .google-maps {
         width: 100%;
         height: 200px;
         border: 0;
-      }
+    }
 
-      .portfolio-nav {
+    .portfolio-nav {
         display: flex;
         flex-direction: row;
         gap: 1%;
         margin-left: 3%;
-      }
+    }
 
-      .portfolio-nav a {
+    .portfolio-nav a {
         border: solid black 1px;
+    }
+
+    .yellow_underline {
+        font-size: 2.5rem;
+        flex-basis: 100%;
+        margin-right: -3px;
+    }
+
+    .nav-section h2 {
+        font-size: 2.5rem;
+        flex-basis: 100%;
+        margin-right: 38px;
       }
 
+    .branding,
+    .design, 
+    .development {
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 3%;
+    }
 
+    .branding article,
+    .design article,
+    .development article {
+        flex: 1;
+        max-width: 692px;
+        margin-bottom: 20px; 
+        flex-basis: 30%;
+    }
+
+    .design article img,
+    .branding article img {
+        height: 375px;
+        width: 375px;
+    }
+
+    .development article img {
+        height: 575px;
+        width: auto;
+    }
+
+    .flex-2 {
+        flex: 2; 
+        flex-basis: 45%;
+    }
+
+    .design article {
+        flex: 1; 
+        flex-basis: 30%
+    }
+
+    .branding article:last-child img {
+        height: 575px;
+        width: auto;
+    }
+    
     /* Footer */
 
     .to-top {
@@ -814,26 +906,26 @@ footer img {
         padding-top: 1%;
         padding-left: 10px;
         padding-right: 10px;
-      }
+    }
 
-      .icon-container {
+    .icon-container {
         gap: 40%;
         display: flex;
         justify-content: center;
         margin-top: 5%;
         margin-bottom: 5%;
-      }
+    }
 
-      footer img {
+    footer img {
         margin-top: 0%;
-      }
+    }
 
-      .footer-flex-margin {
+    .footer-flex-margin {
         background-color: #252525;
         display: flex;
         flex: auto;
         align-items: center;
         flex-direction: column;
         margin-top: -40%; 
-      }
+    }
     }
