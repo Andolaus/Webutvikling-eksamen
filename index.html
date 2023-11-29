@@ -32,7 +32,7 @@
                 <a href="index.html">
                     <img class="logo-img" src="ressurser/logo1.png" alt="circular company logo with the text ilocream peam" aria-label="click for homepage" title="Click for homepage">
                 </a>
-                <nav role="navigation">
+                <nav>
                     <ul class="navbar">
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="products.html">Portfolio</a></li>
@@ -43,7 +43,9 @@
             </header>
             <main>
                 <section class="overflow-hidden">
+                    <!--Dette headerimaget er pynt, men har et overlay med innhold-->
                     <img class="header-image" src="ressurser/rupixen-com-Ai6sfNRvlvc-unsplash.jpg" alt="A mackbook lying on a black table, a black book lies next to it with an iphone and a silver pen on top."> <!-- https://unsplash.com/photos/iphone-5s-near-laptop-Ai6sfNRvlvc?fbclid=IwAR2buIYOzD5We5m3H13o8yjcmN3RVzOiE6exI9YXEawB9WnfN8IDI6wLjUk -->
+                    <!-- Video er pynt-->
                     <video class="header-video" autoplay loop muted> <!-- Brukte denne da jeg ordnet videotagen: https://www.w3schools.com/html/html5_video.asp -->
                         <source src="ressurser/mountains.mp4" type="video/mp4">
                         Your browser does not support this video tag
@@ -52,7 +54,7 @@
                     <p class="absolute-header-p">At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis
                         praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias
                         excepturi sint, obcaecati cupiditate non provident</p>
-                    <a href="#services"><p class="absolute-header-btn" role="button" aria-label="Go to our services">Read more about our services</p></a>
+                    <a role="button" href="#services"><p class="absolute-header-btn" aria-label="Go to our services">Read more about our services</p></a>
                 </section>
                 <article class="engaging-subheading">
                     <h2>Engaging subheading. What can you help your visitors with</h2>
@@ -61,52 +63,52 @@
                         excepturi sint, obcaecati cupiditate non provident</p>
                 </article>
                 <article class="about-our-company">
-                    <img src="https://placehold.co/400" alt="A placeholder image with the text, '400 x 400'">
+                    <img src="https://placehold.co/400" alt="A placeholder image with the text, '400 x 400'"> <!--Dette bildet kan være innhold og pynt avhengig av hva det ville vært bilde av og i sammenheng med teksten-->
                     <h3 class="our-company-h">About Our Company</h3>
                     <p class="our-company-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
-                        <a class="a-padding" href="about.html"><p class="our-company-btn" role="button" aria-label="Go to about us webpage">Read more about us</p></a>
+                        <a class="a-padding" href="about.html" role="button"><p class="our-company-btn" aria-label="Go to about us webpage">Read more about us</p></a>
                 </article>
                 <section class="services" id="services">
                     <h2>Our services</h2>
                     <article class="our-services">
-                        <figure role="figure"> <!-- Brukte denne med tanke på role="figure": https://www.codeinwp.com/blog/wai-aria-roles/ -->
+                        <figure>
                             <i class="fa-solid fa-users fa-2xl" style="color: #000000;"></i>
                             <figcaption>
                                 <h3>Branding</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                             </figcaption>
                         </figure>
-                        <figure role="figure">
+                        <figure>
                             <i class="fa-solid fa-cloud-arrow-up fa-2xl" style="color: #000000;"></i>
                             <figcaption>
                                 <h3>Branding</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                             </figcaption>
-                        </figure role="figure">
+                        </figure>
                         <figure>
                             <i class="fa-solid fa-code fa-2xl" style="color: #000000;"></i>
                             <figcaption>
                                 <h3>Branding</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                             </figcaption>
-                        </figure role="figure">
+                        </figure>
                         <figure>
                             <i class="fa-solid fa-wifi fa-2xl" style="color: #000000;"></i>
                             <figcaption>
                                <h3>Branding</h3>
                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                             </figcaption>
-                        </figure >
+                        </figure>
                     </article>
                 </section>
                 <section class="sign-up">
                     <h3>Sign up for our newsletter</h3>
                     <form action="#" method="post" class="sign-up-form"> <!-- Hentet inspirasjon fra denne: https://www.majesticform.com/form-guides/html-email-form#htmlform -->
                         <input type="text" id="email" name="email" placeholder="Nora@epost.no" required>
-                        <a href="#"><p class="sign-up-btn-index" role="button" aria-label="Sign up for newsletter">Sign me up!</p></a>
+                        <a href="#" role="button"><p class="sign-up-btn-index" aria-label="Sign up for newsletter">Sign me up!</p></a>
                     </form>
                 </section>
             </main>
@@ -115,7 +117,7 @@
                     <img src="ressurser/logo1.png" alt="circular company logo with the text ilocream peam" aria-label="click for homepage" title="Click for homepage">
                 </a>
                 <p class="p-footer">Companyrights Companyname 2023</p>
-                <nav class="icon-container" role="navigation">
+                <nav class="icon-container">
                     <a href="https://www.facebook.com/" target="_blank">
                         <i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;" aria-label="follow us on Facebook!"></i>
                     </a>
@@ -126,9 +128,9 @@
                         <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;" aria-label="follow us on Linkedin"></i>  
                     </a>
                 </nav>
-                <nav class="to-top" role="navigation">
-                    <a href="#">
-                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff;" title="Go to top" role="button" aria-label="Click to go to top of page"></i>
+                <nav class="to-top">
+                    <a href="#" role="button">
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff;" title="Go to top" aria-label="Click to go to top of page"></i>
                     </a>
                 </nav>
             </footer>
