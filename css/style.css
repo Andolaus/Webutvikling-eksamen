@@ -12,6 +12,15 @@ a {
 
 body {
     max-width: 1600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header */ 
@@ -47,7 +56,6 @@ header {
 }
 
 .navbar li a {
-    text-decoration: none;
     color: black;
     padding-right: 3px;
     padding-left: 3px;
@@ -97,21 +105,21 @@ header {
     position: absolute;
     text-align: center;
     top: 48%;
-    font-size: 20px;
+    font-size: 17px;
     width: 73%;
     left: 12%;
 }
 
 .absolute-header-btn {
     position: absolute;
-    font-weight: 900;
+    font-weight: 700;
     background-color: #e6bd43;
     border: 10px solid #e6bd43;
     color: black;
     top: 70%;
-    left: 15%;
+    left: 14%;
     width: 63%;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .header-container {
@@ -159,21 +167,21 @@ header {
 .absolute-header-p-about {
     position: absolute;
     top: 60%;
-    font-size: 13px;
+    font-size: 12px;
     width: 68%;
     left: 7%;
 }
 
 .absolute-header-btn-about {
     position: absolute;
-    font-weight: 900;
+    font-weight: 700;
     background-color: #e6bd43;
     border: 3px solid #e6bd43;
     color: black;
-    top: 125%;
+    top: 127%;
     left: 6%;
     width: 58%;
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     padding: 3%;
 }
 
@@ -281,7 +289,7 @@ main {
 }
 
 .engaging-subheading p {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: -2px;
 }
 
@@ -289,7 +297,7 @@ main {
     background-color: #e6bd43;
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 1200px;
 }
 
 .about-our-company img {
@@ -310,12 +318,12 @@ main {
 }
 
 .our-company-btn {
-    font-weight: 900;
+    font-weight: 700;
     background-color: #e6bd43;
     border: 3px solid black;
     color: black;
     width: 44%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 15px 30px 0px 47px;
     padding: 10px 30px 10px 10px;
 }
@@ -386,20 +394,23 @@ main {
 }
 
 .sign-up-btn {
-    font-weight: 900;
-    background-color: #e6bd43;
-    padding: 12px 15px 12px 15px;
-    border-style: none;
-    margin-right: 172px;
-}
-
-.sign-up-btn-index {
-    font-weight: 900;
+    font-weight: 700;
     background-color: #e6bd43;
     padding: 12px 15px 12px 15px;
     border-style: none;
     margin-right: 20px;
     color: black;
+    font-size: 13px;
+}
+
+.sign-up-btn-index {
+    font-weight: 700;
+    background-color: #e6bd43;
+    padding: 12px 15px 12px 15px;
+    border-style: none;
+    margin-right: 20px;
+    color: black;
+    font-size: 13px;
 }
 
 #email {
@@ -483,7 +494,7 @@ footer {
 
 footer p {
     color: #fff;
-    font-size: 130%;
+    font-size: 100%;
 }
 
 footer img {
@@ -717,7 +728,7 @@ footer img {
     .absolute-header-p-about {
         position: absolute;
         top: 35%;
-        font-size: 19px;
+        font-size: 16px;
         left: 71%;
         padding: 0%;
         width: 100%;
@@ -729,15 +740,15 @@ footer img {
         left: 71%;
     }
 
-    .absolute-header-btn-about {
+    .absolute-header-btn-about {        
         position: absolute;
-        font-weight: 900;
+        font-weight: 700;
         background-color: #e6bd43;
         border: 3px solid #e6bd43;
         color: black;
         top: 76%;
         left: 71%;
-        width: 28%;
+        width: 33%;
         font-size: 1.0rem;
         padding: 2%;
     }
@@ -891,7 +902,7 @@ footer img {
         height: 575px;
         width: auto;
     }
-    
+
     /* Footer */
 
     .to-top {
