@@ -24,12 +24,12 @@
                 <a href="index.html">
                     <img class="logo-img" src="ressurser/logo1.png" alt="circular company logo with the text ilocream peam" aria-label="click for homepage" title="Click for homepage">
                 </a>
-                <nav>
+                <nav role="navigation">
                     <ul class="navbar">
                         <li><a href="index.html" >Home</a></li>
                         <li><a href="products.html" class="active">Portfolio</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li class="navbar-contact"><a href="about.html#contact-us">Contact</a></li>
+                        <li class="navbar-contact"><a href="about.html#contact-us" role="button" aria-label="Go to contact form">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -40,10 +40,10 @@
                 </section>
                 <section class="nav-section">
                     <h2 class="yellow_underline">Explore previous jobs</h2>
-                    <nav class="portfolio-nav">
-                        <a href="#branding">Branding</a>
-                        <a href="#design">Design</a>
-                        <a href="#development">Development</a>
+                    <nav class="portfolio-nav" role="navigation">
+                        <a href="#branding" role="button" aria-label="Go to branding section">Branding</a>
+                        <a href="#design" role="button" aria-label="Go to design section">Design</a>
+                        <a href="#development" role="button" aria-label="Go to development section">Development</a>
                     </nav>
                 </section>
                 <section class="branding" id="branding">
@@ -97,7 +97,7 @@
                     <img src="ressurser/logo1.png" alt="circular company logo with the text ilocream peam" aria-label="click for homepage" title="Click for homepage">
                 </a>
                 <p class="p-footer">Companyrights Companyname 2023</p>
-                <nav class="icon-container">
+                <nav class="icon-container" role="navigation">
                     <a href="https://www.facebook.com/" target="_blank">
                         <i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;" aria-label="follow us on Facebook!"></i>
                     </a>
@@ -108,9 +108,9 @@
                         <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;" aria-label="follow us on Linkedin"></i>  
                     </a>
                 </nav>
-                <nav class="to-top">
+                <nav class="to-top" role="navigation">
                     <a href="#">
-                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff;" title="Go to top"></i>
+                        <i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff;" title="Go to top" role="button" aria-label="Click to go to top of page"></i>
                     </a>
                 </nav>
             </footer>
