@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Poppins:wght@400;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Poppins:wght@400;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> <!--https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/ -->
         <title>Title - lorem ipsum</title>
     </head>
     <body>
@@ -36,7 +36,7 @@
             <main>
                 <section class="overflow-hidden">
                     <img class="header-image" src="ressurser/rupixen-com-Ai6sfNRvlvc-unsplash.jpg" alt="A mackbook lying on a black table, a black book lies next to it with an iphone and a silver pen on top."> <!-- https://unsplash.com/photos/iphone-5s-near-laptop-Ai6sfNRvlvc?fbclid=IwAR2buIYOzD5We5m3H13o8yjcmN3RVzOiE6exI9YXEawB9WnfN8IDI6wLjUk -->
-                    <video class="header-video" autoplay loop muted>
+                    <video class="header-video" autoplay loop muted> <!-- Brukte denne da jeg ordnet videotagen: https://www.w3schools.com/html/html5_video.asp -->
                         <source src="ressurser/mountains.mp4" type="video/mp4">
                         Your browser does not support this video tag
                     </video>
@@ -53,7 +53,7 @@
                         excepturi sint, obcaecati cupiditate non provident</p>
                 </article>
                 <article class="about-our-company">
-                    <img src="https://placehold.co/400" alt="At vero eos et accusamus et iusto odio dignissimos">
+                    <img src="https://placehold.co/400" alt="A placeholder image with the text, '400 x 400'">
                     <h3 class="our-company-h">About Our Company</h3>
                     <p class="our-company-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -64,7 +64,7 @@
                 <section class="services" id="services">
                     <h2>Our services</h2>
                     <article class="our-services">
-                        <figure role="figure">
+                        <figure role="figure"> <!-- Brukte denne med tanke på role="figure": https://www.codeinwp.com/blog/wai-aria-roles/ -->
                             <i class="fa-solid fa-users fa-2xl" style="color: #000000;"></i>
                             <figcaption>
                                 <h3>Branding</h3>
@@ -96,9 +96,9 @@
                 </section>
                 <section class="sign-up">
                     <h3>Sign up for our newsletter</h3>
-                    <form action="#" method="post" class="sign-up-form">
+                    <form action="#" method="post" class="sign-up-form"> <!-- Hentet inspirasjon fra denne: https://www.majesticform.com/form-guides/html-email-form#htmlform -->
                         <input type="text" id="email" name="email" placeholder="Nora@epost.no" required>
-                        <a href="#"><p class="sign-up-btn-index">Sign me up!</p></a>
+                        <a href="#"><p class="sign-up-btn-index" role="button" aria-label="Sign up for newsletter">Sign me up!</p></a>
                     </form>
                 </section>
             </main>

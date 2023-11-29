@@ -83,7 +83,7 @@ header {
 }
 
 .header-image {
-    opacity: 0.6;
+    opacity: 0.6; /* Brukte denne for å lære om opacity: https://www.w3schools.com/css/css_image_transparency.asp     */
     text-align: center;
     width: 170%;
 }
@@ -130,7 +130,7 @@ header {
     width: 230px;
 }
 
-.about-company::before {
+.about-company::before { /* Brukte denne for å lære meg om ::before: https://www.w3schools.com/cssref/sel_before.php */
     content: "";
     position: absolute;
     top: 37%;
@@ -916,7 +916,7 @@ footer img {
         flex-basis: 30%
     }
 
-    .branding article:last-child img {
+    .branding article:last-child img {  /* Brukte denne for å løse størrelsesproblem på image: https://www.w3schools.com/cssref/sel_last-child.php */
         height: 575px;
         width: auto;
     }
